@@ -29,7 +29,6 @@
     "gulp-istanbul": "^0.6.0",
     "gulp-mocha": "^2.0.0",
     "rimraf": "^2.3.2",
-    "should": "^5.0.0",
-    "sinon": "^1.13.0"
+    "should": "^5.0.0"
   }
 }

@@ -3,7 +3,6 @@
 'use strict';
 
 var should = require('should');
-var sinon = require('sinon');
 var optionale = require('../src/optionale').optionale;
 
 describe('optionale', function() {
