@@ -4,7 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/javiercejudo/optionale/badge.svg?branch=master)](https://coveralls.io/r/javiercejudo/optionale?branch=master)
 [![Code Climate](https://codeclimate.com/github/javiercejudo/optionale/badges/gpa.svg)](https://codeclimate.com/github/javiercejudo/optionale)
 
-Rescale utilities
+Minimal loader of optional packages
 
 ## Install
 
