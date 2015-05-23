@@ -1,6 +1,6 @@
 {
   "name": "optionale",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimal loader of optional packages",
   "main": "src/optionale.js",
   "scripts": {
