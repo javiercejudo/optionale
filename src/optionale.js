@@ -12,7 +12,6 @@
 exports.optionale = function optionale(optioanlDependency) {
   try {
     return require(optioanlDependency);
-  } catch (er) {
-    return;
+  } catch (ignore) {
   }
 };
