@@ -13,10 +13,16 @@ Minimal loader of optional packages
 ## Usage
 
 ```js
-var optionale = require('optionale').optionale;
+var optionale = require('optionale');
 
-optionale('invalid-package'); // => undefined
-optionale('util'); // => {…}
+optionale.optionale('invalid-package'); // => undefined
+optionale.optionale('util'); // => {…}
+
+optionale.any(['invalid-package', 'util']); // => {…}
+optionale.any(['invalid-package', 'invalid-package2']); // => undefined
+
+optionale.some(['invalid-package', 'util']); // => {…}
+optionale.some(['invalid-package', 'invalid-package2']); // => throws Error
 ```
 
 See [spec](test/spec.js).
