@@ -12,10 +12,10 @@ var optionale = require('./optionale');
  *
  * @return {*}
  */
-module.exports = function any(optioanlDependencies) {
+module.exports = function any(optionalDependencies) {
   var result;
 
-  optioanlDependencies.every(function(optionalDependency) {
+  optionalDependencies.every(function(optionalDependency) {
     result = optionale(optionalDependency);
 
     return isUndefined(result);
