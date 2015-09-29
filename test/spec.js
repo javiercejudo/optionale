@@ -3,11 +3,11 @@
 'use strict';
 
 var should = require('should');
-var pkg = require('../src/optionale');
+var api = require('../src/index');
 
-var optionale = pkg.optionale;
-var any = pkg.any;
-var some = pkg.some;
+var optionale = api.optionale;
+var any = api.any;
+var some = api.some;
 
 describe('optionale', function() {
   describe('called with the name of an unavailable package', function() {
