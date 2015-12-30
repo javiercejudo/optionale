@@ -42,9 +42,8 @@ describe('any', function() {
 describe('some', function() {
   describe('called with unavailable packages', function() {
     it('should throw Error', function() {
-      (function() {
-        some(['invalid-package', 'another-invalid-package']);
-      }).should.throw(Error);
+      some.bind(undefined, ['invalid-package', 'another-invalid-package'])
+        .should.throw(Error);
     });
   });
 
